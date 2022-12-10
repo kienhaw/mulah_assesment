@@ -1,10 +1,12 @@
-# mulah_assesment
 
 # Breakdown
+link: https://github.com/kienhaw/mulah_assesment/blob/master/breakdown.txt  
+  
 <img width="375" alt="Screenshot 2022-12-10 at 3 37 50 PM" src="https://user-images.githubusercontent.com/32449757/206838583-10d83e74-b909-41a5-a2e6-99160bb1d938.png">
 
 # Summary
-
+link: https://github.com/kienhaw/mulah_assesment/blob/master/summary.txt  
+  
 Alpha Sdn Bhd owes Beta Sdn Bhd, amount: 92  
 Alpha Sdn Bhd owes Charlie Sdn Bhd, amount: 226  
 Alpha Sdn Bhd owes Delta Sdn Bhd, amount: 192  
