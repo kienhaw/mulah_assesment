@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <div id="content"></div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $.ajax({
+    method: 'GET',
+    url: "http://localhost:3000/", // started server with default port 3000
+    data: {},
+    dataType: "json",
+    success: function (res) {
+      res.data.forEach(d => {
+        var html = '';
+        html = `<a href="${d["href"]}" target="_blank" style="color: black"><h2>${d["title"]} - <small>${d["datetime"]}</small></h2></a>`;
+        $('#content').append(html);
+      });
+    }
+  })
+</script>
+</html>
